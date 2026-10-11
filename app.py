@@ -3,6 +3,10 @@ import pandas as pd
 import sqlite3
 import plotly.express as px
 import os
+import sys
+# Add the project root directory to the python path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from dotenv import load_dotenv
 
 # Initialize backend environments
