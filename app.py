@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 # Configuration Constants
-DB_PATH = r"C:\Users\mahal\Desktop\MyWorkSpace\Projects\railpulse_sql_analysis\railpulse.db"
+DB_PATH = os.path.join(os.path.dirname(__file__), "railpulse.db")
 SQL_DIR = "sql_queries"
 
 # Maintain continuous AI message sessions in memory caching arrays
